@@ -28,7 +28,7 @@ steps {
 
 
 
-bat  'gradle  build docker'
+bat  'gradle  build'
 
 }
 
