@@ -33,6 +33,20 @@ bat  'gradle  build docker'
 }
 
 }
+ 
+ 
+ stage('rundocker') {
+
+steps {
+
+
+
+bat  'docker run -p 8089:8088 springio/gs-spring-boot-docker1127'
+
+}
+
+}
+ 
 
 }
 
